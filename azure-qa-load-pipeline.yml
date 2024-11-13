@@ -1,0 +1,44 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- manual
+
+pool:
+  vmImage: macos-latest
+
+steps:
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: |
+      brew install k6
+      ls
+
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: |
+      brew install k6
+      k6 run cypress/e2e/tests_load/RadarTests.js
+    workingDirectory: '$(System.DefaultWorkingDirectory)'
+
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: |
+      ls
+      cd cypress
+      ls
+      cd e2e
+      ls
+      cd tests_load
+      ls
+  displayName: 'Folder navigation'
+    
+- task: PublishHtmlReport@1
+  inputs:
+    reportDir: '$(System.DefaultWorkingDirectory)/summary.html'
+    tabName: 'K6 Report'

@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "dd92ff00-9b80-46b8-ad1f-01d726052828",
+		"name": "ignite",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25548738"
+	},
+	"item": [
+		{
+			"name": "Retrieve Locations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev-zippys-ignite.westus2.azurecontainer.io/locations",
+					"protocol": "https",
+					"host": [
+						"dev-zippys-ignite",
+						"westus2",
+						"azurecontainer",
+						"io"
+					],
+					"path": [
+						"locations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve Single Location",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev-zippys-ignite.westus2.azurecontainer.io/locations/133094",
+					"protocol": "https",
+					"host": [
+						"dev-zippys-ignite",
+						"westus2",
+						"azurecontainer",
+						"io"
+					],
+					"path": [
+						"locations",
+						"133094"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve Location's Menu",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev-zippys-ignite.westus2.azurecontainer.io/locations/133094/menu",
+					"protocol": "https",
+					"host": [
+						"dev-zippys-ignite",
+						"westus2",
+						"azurecontainer",
+						"io"
+					],
+					"path": [
+						"locations",
+						"133094",
+						"menu"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

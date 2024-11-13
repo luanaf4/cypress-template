@@ -1,0 +1,90 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- manual
+
+pool:
+  vmImage: macos-latest
+
+steps:
+
+- task: Lighthouse@1
+  inputs:
+    url: 'https://dev-zippys-web.azurewebsites.net/'
+    args: |
+      --screenEmulation.width=1920 
+      --screenEmulation.height=1080
+    tabName: 'Handoff - Desktop'
+  displayName: 'Lighthouse - Handoff Desktop'
+
+- task: Lighthouse@1
+  inputs:
+    url: 'https://dev-zippys-web.azurewebsites.net/'
+    args: |
+      --screenEmulation.width=390 
+      --screenEmulation.height=844
+    tabName: 'Handoff - Mobile'
+  displayName: 'Lighthouse - Handoff Mobile'
+
+
+- task: Lighthouse@1
+  inputs:
+    url: 'https://dev-zippys-web.azurewebsites.net/menu/zippys-restaurants-sandbox-demo-vendor/'
+    args: |
+      --screenEmulation.width=1920 
+      --screenEmulation.height=1080
+    tabName: 'Menu - Desktop'    
+  displayName: 'Lighthouse - Menu Desktop'
+
+- task: Lighthouse@1
+  inputs:
+    url: 'https://dev-zippys-web.azurewebsites.net/menu/zippys-restaurants-sandbox-demo-vendor/'
+    args: |
+      --screenEmulation.width=390 
+      --screenEmulation.height=844
+    tabName: 'Menu - Mobile'    
+  displayName: 'Lighthouse - Menu Mobile'
+
+- task: Lighthouse@1
+  inputs:
+    url: 'https://dev-zippys-web.azurewebsites.net/menu/zippys-restaurants-sandbox-demo-vendor/products/659980'
+    args: |
+      --screenEmulation.width=1920 
+      --screenEmulation.height=1080
+    tabName: 'Product Details - Desktop'    
+  displayName: 'Lighthouse - Product Details Desktop'
+
+- task: Lighthouse@1
+  inputs:
+    url: 'https://dev-zippys-web.azurewebsites.net/menu/zippys-restaurants-sandbox-demo-vendor/products/659980'
+    args: |
+      --screenEmulation.width=390 
+      --screenEmulation.height=844
+    tabName: 'Product Details - Mobile'    
+  displayName: 'Lighthouse - Product Details Mobile'
+
+
+- task: Lighthouse@1
+  inputs:
+    url: 'https://dev-zippys-web.azurewebsites.net/checkout'
+    args: |
+      --screenEmulation.width=1920 
+      --screenEmulation.height=1080
+    tabName: 'Checkout - Desktop'
+  displayName: 'Lighthouse - Checkout Desktop'
+
+- task: Lighthouse@1
+  inputs:
+    url: 'https://dev-zippys-web.azurewebsites.net/checkout'
+    args: |
+      --screenEmulation.width=390 
+      --screenEmulation.height=844
+    tabName: 'Checkout - Mobile'
+  displayName: 'Lighthouse - Checkout Mobile'
+
+
+
+

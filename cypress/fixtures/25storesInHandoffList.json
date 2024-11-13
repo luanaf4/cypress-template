@@ -1,0 +1,466 @@
+{
+    "restaurants": [
+        {
+            "acceptsordersbeforeopening": true,
+            "acceptsordersuntilclosing": true,
+            "advanceonly": false,
+            "advanceorderdays": 7,
+            "allowhandoffchoiceatmanualfire": false,
+            "allowstaxexemption": false,
+            "attributes": [],
+            "availabilitymessage": null,
+            "brand": "zippysrestaurants",
+            "calendars": null,
+            "candeliver": false,
+            "canpickup": true,
+            "city": "New York",
+            "contextualpricing": null,
+            "country": "US",
+            "crossstreet": "Next to the Madison Square Park",
+            "customerfacingmessage": "",
+            "customfields": [
+                {
+                    "id": 150350,
+                    "label": "Make",
+                    "qualificationcriteria": "CurbsidePickupOrdersOnly",
+                    "required": true,
+                    "validationregex": ""
+                },
+                {
+                    "id": 150351,
+                    "label": "Model",
+                    "qualificationcriteria": "CurbsidePickupOrdersOnly",
+                    "required": true,
+                    "validationregex": ""
+                },
+                {
+                    "id": 150352,
+                    "label": "Color",
+                    "qualificationcriteria": "CurbsidePickupOrdersOnly",
+                    "required": true,
+                    "validationregex": ""
+                }
+            ],
+            "deliveryarea": "",
+            "deliverydelayalertenabled": false,
+            "deliverydelayalertmessage": null,
+            "deliveryfee": 0,
+            "deliveryfeetiers": [],
+            "distance": 0.15,
+            "extref": "OLO",
+            "hasolopass": false,
+            "id": 133094,
+            "isavailable": true,
+            "iscurrentlyopen": true,
+            "labels": [
+                {
+                    "key": "handoffmode_delivery",
+                    "value": "Delivery"
+                },
+                {
+                    "key": "handoffmode_dispatch",
+                    "value": "Delivery"
+                },
+                {
+                    "key": "handoffmode_pickup",
+                    "value": "Pickup"
+                },
+                {
+                    "key": "handoffmode_curbside",
+                    "value": "Curbside"
+                },
+                {
+                    "key": "handoffmode_drivethru",
+                    "value": "Drive-thru"
+                },
+                {
+                    "key": "handoffmode_dinein",
+                    "value": "Dine In"
+                },
+                {
+                    "key": "manual_fire_label",
+                    "value": "Check-in"
+                },
+                {
+                    "key": "thanks_curbsidepickup_instructions",
+                    "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+                },
+                {
+                    "key": "thanks_counterpickup_instructions",
+                    "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+                },
+                {
+                    "key": "thanks_delivery_instructions",
+                    "value": "Thanks for your order!"
+                },
+                {
+                    "key": "thanks_dispatch_instructions",
+                    "value": "Thanks for your order!"
+                },
+                {
+                    "key": "thanks_drivethru_instructions",
+                    "value": "Provide your name or order number to the attendant at drive-thru when you arrive."
+                },
+                {
+                    "key": "thanks_dinein_instructions",
+                    "value": "Thanks for your order!"
+                },
+                {
+                    "key": "thanks_pickupinstructions",
+                    "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+                }
+            ],
+            "latitude": 40.7132547,
+            "longitude": -74.0130149,
+            "maximumpayinstoreorder": 0.0000,
+            "metadata": null,
+            "minimumdeliveryorder": 0,
+            "minimumpickuporder": 0.0000,
+            "mobileurl": "https:\/\/zippysrestaurants.olosandbox.com\/menu\/zippys-restaurants-sandbox-demo-vendor\/",
+            "name": "Zippy's Restaurants 1",
+            "productrecipientnamelabel": "Name:",
+            "requiresphonenumber": true,
+            "showcalories": true,
+            "slug": "zippys-restaurants-sandbox-demo-vendor",
+            "specialinstructionsmaxlength": 10,
+            "state": "NY",
+            "storename": "Zippy's Restaurants 1",
+            "streetaddress": "1 World Trade Center, FL 82",
+            "streetaddress2": "",
+            "suggestedtippercentage": 0,
+            "supportedarrivalmessagehandoffmodes": [
+                "CurbsidePickup"
+            ],
+            "supportedcardtypes": "American Express\/Discover\/MasterCard\/Visa",
+            "supportedcountries": [
+                "US"
+            ],
+            "supportedtimemodes": [
+                "advance",
+                "asap"
+            ],
+            "supportsbaskettransfers": false,
+            "supportscoupons": true,
+            "supportscurbside": true,
+            "supportsdinein": true,
+            "supportsdispatch": true,
+            "supportsdrivethru": true,
+            "supportsfeedback": false,
+            "supportsgrouporders": true,
+            "supportsguestordering": true,
+            "supportsloyalty": true,
+            "supportsmanualfire": false,
+            "supportsnationalmenu": false,
+            "supportsonlineordering": true,
+            "supportsproductrecipientnames": false,
+            "supportsspecialinstructions": false,
+            "supportssplitpayments": true,
+            "supportstip": true,
+            "telephone": "(505) 555-5555",
+            "url": "https:\/\/zippysrestaurants.olosandbox.com\/menu\/zippys-restaurants-sandbox-demo-vendor\/",
+            "utcoffset": -4,
+            "zip": "10007"
+        },
+
+        {
+            "acceptsordersbeforeopening": true,
+            "acceptsordersuntilclosing": true,
+            "advanceonly": false,
+            "advanceorderdays": 7,
+            "allowhandoffchoiceatmanualfire": false,
+            "allowstaxexemption": false,
+            "attributes": [],
+            "availabilitymessage": null,
+            "brand": "zippysrestaurants",
+            "calendars": null,
+            "candeliver": false,
+            "canpickup": true,
+            "city": "New York",
+            "contextualpricing": null,
+            "country": "US",
+            "crossstreet": "Next to the Madison Square Park",
+            "customerfacingmessage": "",
+            "customfields": [
+                {
+                    "id": 150350,
+                    "label": "Make",
+                    "qualificationcriteria": "CurbsidePickupOrdersOnly",
+                    "required": true,
+                    "validationregex": ""
+                },
+                {
+                    "id": 150351,
+                    "label": "Model",
+                    "qualificationcriteria": "CurbsidePickupOrdersOnly",
+                    "required": true,
+                    "validationregex": ""
+                },
+                {
+                    "id": 150352,
+                    "label": "Color",
+                    "qualificationcriteria": "CurbsidePickupOrdersOnly",
+                    "required": true,
+                    "validationregex": ""
+                }
+            ],
+            "deliveryarea": "",
+            "deliverydelayalertenabled": false,
+            "deliverydelayalertmessage": null,
+            "deliveryfee": 0,
+            "deliveryfeetiers": [],
+            "distance": 0.15,
+            "extref": "OLO",
+            "hasolopass": false,
+            "id": 133095,
+            "isavailable": true,
+            "iscurrentlyopen": true,
+            "labels": [
+                {
+                    "key": "handoffmode_delivery",
+                    "value": "Delivery"
+                },
+                {
+                    "key": "handoffmode_dispatch",
+                    "value": "Delivery"
+                },
+                {
+                    "key": "handoffmode_pickup",
+                    "value": "Pickup"
+                },
+                {
+                    "key": "handoffmode_curbside",
+                    "value": "Curbside"
+                },
+                {
+                    "key": "handoffmode_drivethru",
+                    "value": "Drive-thru"
+                },
+                {
+                    "key": "handoffmode_dinein",
+                    "value": "Dine In"
+                },
+                {
+                    "key": "manual_fire_label",
+                    "value": "Check-in"
+                },
+                {
+                    "key": "thanks_curbsidepickup_instructions",
+                    "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+                },
+                {
+                    "key": "thanks_counterpickup_instructions",
+                    "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+                },
+                {
+                    "key": "thanks_delivery_instructions",
+                    "value": "Thanks for your order!"
+                },
+                {
+                    "key": "thanks_dispatch_instructions",
+                    "value": "Thanks for your order!"
+                },
+                {
+                    "key": "thanks_drivethru_instructions",
+                    "value": "Provide your name or order number to the attendant at drive-thru when you arrive."
+                },
+                {
+                    "key": "thanks_dinein_instructions",
+                    "value": "Thanks for your order!"
+                },
+                {
+                    "key": "thanks_pickupinstructions",
+                    "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+                }
+            ],
+            "latitude": 40.7132547,
+            "longitude": -74.0130148,
+            "maximumpayinstoreorder": 0.0000,
+            "metadata": null,
+            "minimumdeliveryorder": 0,
+            "minimumpickuporder": 0.0000,
+            "mobileurl": "https:\/\/zippysrestaurants.olosandbox.com\/menu\/zippys-restaurants-sandbox-demo-vendor\/",
+            "name": "Zippy's Restaurants 2",
+            "productrecipientnamelabel": "Name:",
+            "requiresphonenumber": true,
+            "showcalories": true,
+            "slug": "zippys-restaurants-sandbox-demo-vendor",
+            "specialinstructionsmaxlength": 10,
+            "state": "NY",
+            "storename": "Zippy's Restaurants 2",
+            "streetaddress": "1 World Trade Center, FL 82",
+            "streetaddress2": "",
+            "suggestedtippercentage": 0,
+            "supportedarrivalmessagehandoffmodes": [
+                "CurbsidePickup"
+            ],
+            "supportedcardtypes": "American Express\/Discover\/MasterCard\/Visa",
+            "supportedcountries": [
+                "US"
+            ],
+            "supportedtimemodes": [
+                "advance",
+                "asap"
+            ],
+            "supportsbaskettransfers": false,
+            "supportscoupons": true,
+            "supportscurbside": true,
+            "supportsdinein": true,
+            "supportsdispatch": true,
+            "supportsdrivethru": true,
+            "supportsfeedback": false,
+            "supportsgrouporders": true,
+            "supportsguestordering": true,
+            "supportsloyalty": true,
+            "supportsmanualfire": false,
+            "supportsnationalmenu": false,
+            "supportsonlineordering": true,
+            "supportsproductrecipientnames": false,
+            "supportsspecialinstructions": false,
+            "supportssplitpayments": true,
+            "supportstip": true,
+            "telephone": "(505) 555-5555",
+            "url": "https:\/\/zippysrestaurants.olosandbox.com\/menu\/zippys-restaurants-sandbox-demo-vendor\/",
+            "utcoffset": -4,
+            "zip": "10007"
+        },
+
+
+        {
+            "acceptsordersbeforeopening": true,
+            "acceptsordersuntilclosing": true,
+            "advanceonly": false,
+            "advanceorderdays": 7,
+            "allowhandoffchoiceatmanualfire": false,
+            "allowstaxexemption": false,
+            "attributes": [],
+            "availabilitymessage": null,
+            "brand": "zippysrestaurants",
+            "calendars": null,
+            "candeliver": false,
+            "canpickup": true,
+            "city": "New York",
+            "contextualpricing": null,
+            "country": "US",
+            "crossstreet": "",
+            "customerfacingmessage": "",
+            "customfields": null,
+            "deliveryarea": "",
+            "deliverydelayalertenabled": false,
+            "deliverydelayalertmessage": null,
+            "deliveryfee": 0,
+            "deliveryfeetiers": [],
+            "distance": 0.5,
+            "extref": "1111111",
+            "hasolopass": false,
+            "id": 157299,
+            "isavailable": true,
+            "iscurrentlyopen": true,
+            "labels": [
+                {
+                    "key": "handoffmode_delivery",
+                    "value": "Delivery"
+                },
+                {
+                    "key": "handoffmode_dispatch",
+                    "value": "Delivery"
+                },
+                {
+                    "key": "handoffmode_pickup",
+                    "value": "Pickup"
+                },
+                {
+                    "key": "handoffmode_curbside",
+                    "value": "Curbside"
+                },
+                {
+                    "key": "handoffmode_drivethru",
+                    "value": "Drive-thru"
+                },
+                {
+                    "key": "handoffmode_dinein",
+                    "value": "Dine In"
+                },
+                {
+                    "key": "manual_fire_label",
+                    "value": "Check-in"
+                },
+                {
+                    "key": "thanks_curbsidepickup_instructions",
+                    "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+                },
+                {
+                    "key": "thanks_counterpickup_instructions",
+                    "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+                },
+                {
+                    "key": "thanks_delivery_instructions",
+                    "value": "Thanks for your order!"
+                },
+                {
+                    "key": "thanks_dispatch_instructions",
+                    "value": "Thanks for your order!"
+                },
+                {
+                    "key": "thanks_drivethru_instructions",
+                    "value": "Provide your name or order number to the attendant at drive-thru when you arrive."
+                },
+                {
+                    "key": "thanks_dinein_instructions",
+                    "value": "Thanks for your order!"
+                },
+                {
+                    "key": "thanks_pickupinstructions",
+                    "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+                }
+            ],
+            "latitude": 40.7190756,
+            "longitude": -74.0090648,
+            "maximumpayinstoreorder": 0.0000,
+            "metadata": null,
+            "minimumdeliveryorder": 0.0000,
+            "minimumpickuporder": 0.0000,
+            "mobileurl": "https:\/\/zippysrestaurants.olosandbox.com\/menu\/las-vegas\/",
+            "name": "Las Vegas 2",
+            "productrecipientnamelabel": "Name:",
+            "requiresphonenumber": true,
+            "showcalories": false,
+            "slug": "las-vegas",
+            "specialinstructionsmaxlength": 10,
+            "state": "NY",
+            "storename": "Zippy's Restaurants 2",
+            "streetaddress": "99 Hudson Street",
+            "streetaddress2": "",
+            "suggestedtippercentage": 0,
+            "supportedarrivalmessagehandoffmodes": [],
+            "supportedcardtypes": "American Express\/Discover\/MasterCard\/Visa",
+            "supportedcountries": [
+                "US"
+            ],
+            "supportedtimemodes": [
+                "advance",
+                "asap"
+            ],
+            "supportsbaskettransfers": false,
+            "supportscoupons": false,
+            "supportscurbside": false,
+            "supportsdinein": false,
+            "supportsdispatch": false,
+            "supportsdrivethru": false,
+            "supportsfeedback": false,
+            "supportsgrouporders": true,
+            "supportsguestordering": true,
+            "supportsloyalty": true,
+            "supportsmanualfire": false,
+            "supportsnationalmenu": false,
+            "supportsonlineordering": true,
+            "supportsproductrecipientnames": false,
+            "supportsspecialinstructions": false,
+            "supportssplitpayments": true,
+            "supportstip": true,
+            "telephone": "(505) 555-5555",
+            "url": "https:\/\/zippysrestaurants.olosandbox.com\/menu\/las-vegas\/",
+            "utcoffset": -4,
+            "zip": "10013"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+# Node.js
+# Build a general Node.js project with npm.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+- manual
+
+pool:
+  vmImage: macos-latest
+
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '18.x'
+  displayName: 'Install Node.js'
+
+- script: |
+    npm install
+  displayName: 'npm install'
+
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: 'npx playwright install'
+  displayName: 'install playwright'
+
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: 'npx playwright test'
+  continueOnError: true
+  displayName: 'run test'
+
+- task: PublishHtmlReport@1
+  inputs:
+    reportDir: '$(System.DefaultWorkingDirectory)/test-results/html-report/index.html'
+
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: '$(Pipeline.Workspace)'
+    publishLocation: 'pipeline'

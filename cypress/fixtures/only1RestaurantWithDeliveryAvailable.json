@@ -1,0 +1,2977 @@
+{
+  "paging": {
+    "pageSize": 0,
+    "pageNumber": 1,
+    "pageCount": 10,
+    "totalRecords": 10
+  },
+  "locations": [
+    {
+      "id": 133105,
+      "name": "Vineyard",
+      "storeNumber": "16",
+      "phone": "(808) 532-4211",
+      "streetAddress": "59 N. Vineyard Boulevard",
+      "city": "Honolulu",
+      "state": "HI",
+      "postalCode": "96817",
+      "country": "US",
+      "latitude": 21.3149399,
+      "longitude": -157.8587362,
+      "utcOffset": -10.0,
+      "distance": 0.55,
+      "images": [],
+      "advanceOnly": false,
+      "advanceOrderDays": 7,
+      "supportsManualFire": false,
+      "canDeliver": false,
+      "canPickup": true,
+      "supportsCurbside": true,
+      "supportsDispatch": true,
+      "supportsDineIn": false,
+      "slug": "vineyard",
+      "isAvailable": true,
+      "isCurrentlyOpen": true,
+      "supportsDriveThru": true,
+      "acceptsOrdersBeforeOpening": true,
+      "customFields": [],
+      "labels": [
+        {
+          "key": "handoffmode_delivery",
+          "value": "Delivery"
+        },
+        {
+          "key": "handoffmode_dispatch",
+          "value": "Delivery"
+        },
+        {
+          "key": "handoffmode_pickup",
+          "value": "Pickup"
+        },
+        {
+          "key": "handoffmode_curbside",
+          "value": "Curbside"
+        },
+        {
+          "key": "handoffmode_drivethru",
+          "value": "Drive-thru"
+        },
+        {
+          "key": "handoffmode_dinein",
+          "value": "Dine In"
+        },
+        {
+          "key": "manual_fire_label",
+          "value": "Check-in"
+        },
+        {
+          "key": "thanks_curbsidepickup_instructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        },
+        {
+          "key": "thanks_counterpickup_instructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        },
+        {
+          "key": "thanks_delivery_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_dispatch_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_drivethru_instructions",
+          "value": "Provide your name or order number to the attendant at drive-thru when you arrive."
+        },
+        {
+          "key": "thanks_dinein_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_pickupinstructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        }
+      ],
+      "metadata": [],
+      "supportedTimeModes": ["advance", "asap"],
+      "attributes": [],
+      "calendars": [
+        {
+          "type": "DINE_IN",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240809 00:00",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240810 00:00",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240811 00:00",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240812 00:00",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240813 00:00",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240814 00:00",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240815 00:00",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240816 00:00",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "label": "Curbside",
+          "type": "CURBSIDE",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240808 21:45",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240809 21:45",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240810 21:45",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240811 21:45",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240812 21:45",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240813 21:45",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240814 21:45",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240815 21:45",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "type": "DRIVE_THRU",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240809 00:00",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240810 00:00",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240811 00:00",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240812 00:00",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240813 00:00",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240814 00:00",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240815 00:00",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240816 00:00",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "label": "Delivery",
+          "type": "DISPATCH",
+          "ranges": []
+        },
+        {
+          "type": "DINE_IN",
+          "ranges": [
+            {
+              "start": "20240808 06:15",
+              "end": "20240808 21:45",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:15",
+              "end": "20240809 21:45",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:15",
+              "end": "20240810 21:45",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:15",
+              "end": "20240811 21:45",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:15",
+              "end": "20240812 21:45",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:15",
+              "end": "20240813 21:45",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:15",
+              "end": "20240814 21:45",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:15",
+              "end": "20240815 21:45",
+              "weekday": "Thu"
+            }
+          ]
+        }
+      ],
+      "isFavorite": false
+    },
+    {
+      "id": 133102,
+      "name": "Nimitz",
+      "storeNumber": "10",
+      "phone": "(808) 532-4205",
+      "streetAddress": "666 N. Nimitz Highway",
+      "city": "Honolulu",
+      "state": "HI",
+      "postalCode": "96813",
+      "country": "US",
+      "latitude": 21.3133971,
+      "longitude": -157.8704383,
+      "utcOffset": -10.0,
+      "distance": 0.9,
+      "images": [],
+      "advanceOnly": false,
+      "advanceOrderDays": 7,
+      "supportsManualFire": false,
+      "canDeliver": false,
+      "canPickup": true,
+      "supportsCurbside": true,
+      "supportsDispatch": true,
+      "supportsDineIn": false,
+      "slug": "nimitz",
+      "isAvailable": true,
+      "isCurrentlyOpen": true,
+      "supportsDriveThru": true,
+      "acceptsOrdersBeforeOpening": true,
+      "customFields": [],
+      "labels": [
+        {
+          "key": "handoffmode_delivery",
+          "value": "Delivery"
+        },
+        {
+          "key": "handoffmode_dispatch",
+          "value": "Delivery"
+        },
+        {
+          "key": "handoffmode_pickup",
+          "value": "Pickup"
+        },
+        {
+          "key": "handoffmode_curbside",
+          "value": "Curbside"
+        },
+        {
+          "key": "handoffmode_drivethru",
+          "value": "Drive-thru"
+        },
+        {
+          "key": "handoffmode_dinein",
+          "value": "Dine In"
+        },
+        {
+          "key": "manual_fire_label",
+          "value": "Check-in"
+        },
+        {
+          "key": "thanks_curbsidepickup_instructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        },
+        {
+          "key": "thanks_counterpickup_instructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        },
+        {
+          "key": "thanks_delivery_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_dispatch_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_drivethru_instructions",
+          "value": "Provide your name or order number to the attendant at drive-thru when you arrive."
+        },
+        {
+          "key": "thanks_dinein_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_pickupinstructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        }
+      ],
+      "metadata": [],
+      "supportedTimeModes": ["advance", "asap"],
+      "attributes": [],
+      "calendars": [
+        {
+          "type": "DINE_IN",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240809 00:00",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240810 00:00",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240811 00:00",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240812 00:00",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240813 00:00",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240814 00:00",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240815 00:00",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240816 00:00",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "label": "Curbside",
+          "type": "CURBSIDE",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240808 21:45",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240809 21:45",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240810 21:45",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240811 21:45",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240812 21:45",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240813 21:45",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240814 21:45",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240815 21:45",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "type": "DRIVE_THRU",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240809 00:00",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240810 00:00",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240811 00:00",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240812 00:00",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240813 00:00",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240814 00:00",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240815 00:00",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240816 00:00",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "label": "Delivery",
+          "type": "DISPATCH",
+          "ranges": []
+        },
+        {
+          "type": "DINE_IN",
+          "ranges": [
+            {
+              "start": "20240808 06:15",
+              "end": "20240808 21:45",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:15",
+              "end": "20240809 21:45",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:15",
+              "end": "20240810 21:45",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:15",
+              "end": "20240811 21:45",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:15",
+              "end": "20240812 21:45",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:15",
+              "end": "20240813 21:45",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:15",
+              "end": "20240814 21:45",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:15",
+              "end": "20240815 21:45",
+              "weekday": "Thu"
+            }
+          ]
+        }
+      ],
+      "isFavorite": false
+    },
+    {
+      "id": 133100,
+      "name": "Makiki",
+      "storeNumber": "8",
+      "phone": "(808) 594-3720",
+      "streetAddress": "1222 S. King Street",
+      "crossStreet": "Near Pi'ikoi Street",
+      "city": "Honolulu",
+      "state": "HI",
+      "postalCode": "96814",
+      "country": "US",
+      "latitude": 21.2997941,
+      "longitude": -157.8433325,
+      "utcOffset": -10.0,
+      "distance": 1.08,
+      "images": [],
+      "advanceOnly": false,
+      "advanceOrderDays": 7,
+      "supportsManualFire": false,
+      "canDeliver": false,
+      "canPickup": true,
+      "supportsCurbside": true,
+      "supportsDispatch": true,
+      "supportsDineIn": false,
+      "slug": "makiki",
+      "isAvailable": true,
+      "isCurrentlyOpen": true,
+      "supportsDriveThru": true,
+      "acceptsOrdersBeforeOpening": true,
+      "customFields": [],
+      "labels": [
+        {
+          "key": "handoffmode_delivery",
+          "value": "Delivery"
+        },
+        {
+          "key": "handoffmode_dispatch",
+          "value": "Delivery"
+        },
+        {
+          "key": "handoffmode_pickup",
+          "value": "Pickup"
+        },
+        {
+          "key": "handoffmode_curbside",
+          "value": "Curbside"
+        },
+        {
+          "key": "handoffmode_drivethru",
+          "value": "Drive-thru"
+        },
+        {
+          "key": "handoffmode_dinein",
+          "value": "Dine In"
+        },
+        {
+          "key": "manual_fire_label",
+          "value": "Check-in"
+        },
+        {
+          "key": "thanks_curbsidepickup_instructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        },
+        {
+          "key": "thanks_counterpickup_instructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        },
+        {
+          "key": "thanks_delivery_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_dispatch_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_drivethru_instructions",
+          "value": "Provide your name or order number to the attendant at drive-thru when you arrive."
+        },
+        {
+          "key": "thanks_dinein_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_pickupinstructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        }
+      ],
+      "metadata": [],
+      "supportedTimeModes": ["advance", "asap"],
+      "attributes": [],
+      "calendars": [
+        {
+          "type": "DINE_IN",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240809 00:00",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240810 02:00",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240811 02:00",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240812 02:00",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240813 00:00",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240814 00:00",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240815 00:00",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240816 00:00",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "label": "Curbside",
+          "type": "CURBSIDE",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240808 21:45",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240809 21:45",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240810 21:45",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240811 21:45",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240812 21:45",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240813 21:45",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240814 21:45",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240815 21:45",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "type": "DRIVE_THRU",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240809 00:00",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240810 02:00",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240811 02:00",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240812 02:00",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240813 00:00",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240814 00:00",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240815 00:00",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240816 00:00",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "label": "Delivery",
+          "type": "DISPATCH",
+          "ranges": []
+        },
+        {
+          "type": "DINE_IN",
+          "ranges": [
+            {
+              "start": "20240808 06:15",
+              "end": "20240808 21:45",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:15",
+              "end": "20240809 21:45",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:15",
+              "end": "20240810 21:45",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:15",
+              "end": "20240811 21:45",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:15",
+              "end": "20240812 21:45",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:15",
+              "end": "20240813 21:45",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:15",
+              "end": "20240814 21:45",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:15",
+              "end": "20240815 21:45",
+              "weekday": "Thu"
+            }
+          ]
+        }
+      ],
+      "isFavorite": false
+    },
+    {
+      "id": 133103,
+      "name": "Dillingham",
+      "storeNumber": "11",
+      "phone": "(808) 832-1750",
+      "streetAddress": "1210 Dillingham Boulevard",
+      "city": "Honolulu",
+      "state": "HI",
+      "postalCode": "96817",
+      "country": "US",
+      "latitude": 21.3228796,
+      "longitude": -157.8739251,
+      "utcOffset": -10.0,
+      "distance": 1.49,
+      "images": [],
+      "advanceOnly": false,
+      "advanceOrderDays": 7,
+      "supportsManualFire": false,
+      "canDeliver": false,
+      "canPickup": true,
+      "supportsCurbside": true,
+      "supportsDispatch": true,
+      "supportsDineIn": false,
+      "slug": "dillingham",
+      "isAvailable": true,
+      "isCurrentlyOpen": true,
+      "supportsDriveThru": true,
+      "acceptsOrdersBeforeOpening": true,
+      "customFields": [],
+      "labels": [
+        {
+          "key": "handoffmode_delivery",
+          "value": "Delivery"
+        },
+        {
+          "key": "handoffmode_dispatch",
+          "value": "Delivery"
+        },
+        {
+          "key": "handoffmode_pickup",
+          "value": "Pickup"
+        },
+        {
+          "key": "handoffmode_curbside",
+          "value": "Curbside"
+        },
+        {
+          "key": "handoffmode_drivethru",
+          "value": "Drive-thru"
+        },
+        {
+          "key": "handoffmode_dinein",
+          "value": "Dine In"
+        },
+        {
+          "key": "manual_fire_label",
+          "value": "Check-in"
+        },
+        {
+          "key": "thanks_curbsidepickup_instructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        },
+        {
+          "key": "thanks_counterpickup_instructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        },
+        {
+          "key": "thanks_delivery_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_dispatch_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_drivethru_instructions",
+          "value": "Provide your name or order number to the attendant at drive-thru when you arrive."
+        },
+        {
+          "key": "thanks_dinein_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_pickupinstructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        }
+      ],
+      "metadata": [],
+      "supportedTimeModes": ["advance", "asap"],
+      "attributes": [],
+      "calendars": [
+        {
+          "type": "DINE_IN",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240808 22:00",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240810 00:00",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240811 00:00",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240811 22:00",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240812 22:00",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240813 22:00",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240814 22:00",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240815 22:00",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "label": "Curbside",
+          "type": "CURBSIDE",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240808 21:45",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240809 21:45",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240810 21:45",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240811 21:45",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240812 21:45",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240813 21:45",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240814 21:45",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240815 21:45",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "type": "DRIVE_THRU",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240808 22:00",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240810 00:00",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240811 00:00",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240811 22:00",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240812 22:00",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240813 22:00",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240814 22:00",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240815 22:00",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "label": "Delivery",
+          "type": "DISPATCH",
+          "ranges": []
+        },
+        {
+          "type": "DINE_IN",
+          "ranges": [
+            {
+              "start": "20240808 06:15",
+              "end": "20240808 21:45",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:15",
+              "end": "20240809 21:45",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:15",
+              "end": "20240810 21:45",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:15",
+              "end": "20240811 21:45",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:15",
+              "end": "20240812 21:45",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:15",
+              "end": "20240813 21:45",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:15",
+              "end": "20240814 21:45",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:15",
+              "end": "20240815 21:45",
+              "weekday": "Thu"
+            }
+          ]
+        }
+      ],
+      "isFavorite": false
+    },
+    {
+      "id": 133095,
+      "name": "McCully",
+      "storeNumber": "1",
+      "phone": "(808) 973-0877",
+      "streetAddress": "1725 S. King Street",
+      "crossStreet": "Next to Washington Middle School",
+      "city": "Honolulu",
+      "state": "HI",
+      "postalCode": "96826",
+      "country": "US",
+      "latitude": 21.2958413,
+      "longitude": -157.8338316,
+      "utcOffset": -10.0,
+      "distance": 1.75,
+      "images": [],
+      "advanceOnly": false,
+      "advanceOrderDays": 7,
+      "supportsManualFire": false,
+      "canDeliver": false,
+      "canPickup": true,
+      "supportsCurbside": true,
+      "supportsDispatch": true,
+      "supportsDineIn": false,
+      "slug": "mccully",
+      "isAvailable": true,
+      "isCurrentlyOpen": true,
+      "supportsDriveThru": true,
+      "acceptsOrdersBeforeOpening": true,
+      "customFields": [],
+      "labels": [
+        {
+          "key": "handoffmode_delivery",
+          "value": "Delivery"
+        },
+        {
+          "key": "handoffmode_dispatch",
+          "value": "Delivery"
+        },
+        {
+          "key": "handoffmode_pickup",
+          "value": "Pickup"
+        },
+        {
+          "key": "handoffmode_curbside",
+          "value": "Curbside"
+        },
+        {
+          "key": "handoffmode_drivethru",
+          "value": "Drive-thru"
+        },
+        {
+          "key": "handoffmode_dinein",
+          "value": "Dine In"
+        },
+        {
+          "key": "manual_fire_label",
+          "value": "Check-in"
+        },
+        {
+          "key": "thanks_curbsidepickup_instructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        },
+        {
+          "key": "thanks_counterpickup_instructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        },
+        {
+          "key": "thanks_delivery_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_dispatch_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_drivethru_instructions",
+          "value": "Provide your name or order number to the attendant at drive-thru when you arrive."
+        },
+        {
+          "key": "thanks_dinein_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_pickupinstructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        }
+      ],
+      "metadata": [],
+      "supportedTimeModes": ["advance", "asap"],
+      "attributes": ["location-offerings-sushi"],
+      "calendars": [
+        {
+          "type": "DINE_IN",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240808 22:00",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240810 00:00",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240811 00:00",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240811 22:00",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240812 22:00",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240813 22:00",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240814 22:00",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240815 22:00",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "label": "Curbside",
+          "type": "CURBSIDE",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240808 21:45",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240809 21:45",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240810 21:45",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240811 21:45",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240812 21:45",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240813 21:45",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240814 21:45",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240815 21:45",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "type": "DRIVE_THRU",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240808 22:00",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240810 00:00",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240811 00:00",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240811 22:00",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240812 22:00",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240813 22:00",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240814 22:00",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240815 22:00",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "label": "Delivery",
+          "type": "DISPATCH",
+          "ranges": []
+        },
+        {
+          "type": "DINE_IN",
+          "ranges": [
+            {
+              "start": "20240808 06:15",
+              "end": "20240808 21:45",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:15",
+              "end": "20240809 21:45",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:15",
+              "end": "20240810 21:45",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:15",
+              "end": "20240811 21:45",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:15",
+              "end": "20240812 21:45",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:15",
+              "end": "20240813 21:45",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:15",
+              "end": "20240814 21:45",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:15",
+              "end": "20240815 21:45",
+              "weekday": "Thu"
+            }
+          ]
+        }
+      ],
+      "isFavorite": false
+    },
+    {
+      "id": 133094,
+      "name": "Zippy's Restaurants",
+      "storeNumber": "OLO",
+      "phone": "(505) 555-5555",
+      "streetAddress": "1765 South King Street",
+      "crossStreet": "Next to the Madison Square Park",
+      "city": "Honolulu",
+      "state": "HI",
+      "postalCode": "96826",
+      "country": "US",
+      "latitude": 21.2955941,
+      "longitude": -157.8331563,
+      "utcOffset": -4.0,
+      "distance": 1.8,
+      "images": [],
+      "advanceOnly": false,
+      "advanceOrderDays": 7,
+      "supportsManualFire": false,
+      "canDeliver": false,
+      "canPickup": true,
+      "supportsCurbside": true,
+      "supportsDispatch": true,
+      "supportsDineIn": true,
+      "slug": "zippys-restaurants-sandbox-demo-vendor",
+      "isAvailable": true,
+      "isCurrentlyOpen": true,
+      "supportsDriveThru": true,
+      "acceptsOrdersBeforeOpening": true,
+      "customFields": [
+        {
+          "id": 150350,
+          "label": "Make",
+          "required": true,
+          "validationRegex": "",
+          "qualificationCriteria": "CurbsidePickupOrdersOnly"
+        },
+        {
+          "id": 150351,
+          "label": "Model",
+          "required": true,
+          "validationRegex": "",
+          "qualificationCriteria": "CurbsidePickupOrdersOnly"
+        },
+        {
+          "id": 150352,
+          "label": "Color",
+          "required": true,
+          "validationRegex": "",
+          "qualificationCriteria": "CurbsidePickupOrdersOnly"
+        }
+      ],
+      "labels": [
+        {
+          "key": "handoffmode_delivery",
+          "value": "Delivery"
+        },
+        {
+          "key": "handoffmode_dispatch",
+          "value": "Delivery"
+        },
+        {
+          "key": "handoffmode_pickup",
+          "value": "Pickup"
+        },
+        {
+          "key": "handoffmode_curbside",
+          "value": "Curbside"
+        },
+        {
+          "key": "handoffmode_drivethru",
+          "value": "Drive-thru"
+        },
+        {
+          "key": "handoffmode_dinein",
+          "value": "Dine In"
+        },
+        {
+          "key": "manual_fire_label",
+          "value": "Check-in"
+        },
+        {
+          "key": "thanks_curbsidepickup_instructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        },
+        {
+          "key": "thanks_counterpickup_instructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        },
+        {
+          "key": "thanks_delivery_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_dispatch_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_drivethru_instructions",
+          "value": "Provide your name or order number to the attendant at drive-thru when you arrive."
+        },
+        {
+          "key": "thanks_dinein_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_pickupinstructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        }
+      ],
+      "metadata": [],
+      "supportedTimeModes": ["advance", "asap"],
+      "attributes": [],
+      "calendars": [
+        {
+          "type": "DINE_IN",
+          "ranges": [
+            {
+              "start": "20240808 23:00",
+              "end": "20240809 00:00",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240809 13:00",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240810 22:00",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240812 22:00",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240813 10:00",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 21:45",
+              "end": "20240814 23:00",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 23:00",
+              "end": "20240816 00:00",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "type": "PICKUP",
+          "ranges": [
+            {
+              "start": "20240808 00:00",
+              "end": "20240808 22:00",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240809 22:00",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240810 22:00",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240812 22:00",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240813 22:00",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240814 22:00",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 00:00",
+              "end": "20240815 22:00",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "type": "PICKUP",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240808 22:00",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240809 22:00",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240810 22:00",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240812 22:00",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240813 22:00",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240814 22:00",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240815 22:00",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "type": "DINE_IN",
+          "ranges": [
+            {
+              "start": "20240808 00:00",
+              "end": "20240808 22:00",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240809 22:00",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240810 22:00",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240812 22:00",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240813 22:00",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240814 22:00",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 00:00",
+              "end": "20240815 22:00",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "label": "Curbside",
+          "type": "CURBSIDE",
+          "ranges": [
+            {
+              "start": "20240808 00:00",
+              "end": "20240808 22:00",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240809 22:00",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240810 22:00",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240812 22:00",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240813 22:00",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240814 22:00",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 00:00",
+              "end": "20240815 22:00",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "type": "DRIVE_THRU",
+          "ranges": [
+            {
+              "start": "20240808 00:00",
+              "end": "20240808 22:00",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240809 22:00",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240810 22:00",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240812 22:00",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240813 22:00",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240814 22:00",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 00:00",
+              "end": "20240815 22:00",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "label": "Delivery",
+          "type": "DISPATCH",
+          "ranges": [
+            {
+              "start": "20240808 00:00",
+              "end": "20240808 22:00",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240809 22:00",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240810 22:00",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240812 22:00",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240813 22:00",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240814 22:00",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 00:00",
+              "end": "20240815 22:00",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "type": "DINE_IN",
+          "ranges": [
+            {
+              "start": "20240808 00:00",
+              "end": "20240809 00:00",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 00:00",
+              "end": "20240810 00:00",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 00:00",
+              "end": "20240811 00:00",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 00:00",
+              "end": "20240812 00:00",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 00:00",
+              "end": "20240813 00:00",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 00:00",
+              "end": "20240814 00:00",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 00:00",
+              "end": "20240815 00:00",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 00:00",
+              "end": "20240816 00:00",
+              "weekday": "Thu"
+            }
+          ]
+        }
+      ],
+      "isFavorite": false
+    },
+    {
+      "id": 133108,
+      "name": "Kalihi",
+      "storeNumber": "19",
+      "phone": "(808) 832-1755",
+      "streetAddress": "904 Mokauea Street",
+      "city": "Honolulu",
+      "state": "HI",
+      "postalCode": "96819",
+      "country": "US",
+      "latitude": 21.3318157,
+      "longitude": -157.87796,
+      "utcOffset": -10.0,
+      "distance": 2.13,
+      "images": [],
+      "advanceOnly": false,
+      "advanceOrderDays": 7,
+      "supportsManualFire": false,
+      "canDeliver": false,
+      "canPickup": true,
+      "supportsCurbside": true,
+      "supportsDispatch": true,
+      "supportsDineIn": false,
+      "slug": "kalihi",
+      "isAvailable": true,
+      "isCurrentlyOpen": true,
+      "supportsDriveThru": true,
+      "acceptsOrdersBeforeOpening": true,
+      "customFields": [],
+      "labels": [
+        {
+          "key": "handoffmode_delivery",
+          "value": "Delivery"
+        },
+        {
+          "key": "handoffmode_dispatch",
+          "value": "Delivery"
+        },
+        {
+          "key": "handoffmode_pickup",
+          "value": "Pickup"
+        },
+        {
+          "key": "handoffmode_curbside",
+          "value": "Curbside"
+        },
+        {
+          "key": "handoffmode_drivethru",
+          "value": "Drive-thru"
+        },
+        {
+          "key": "handoffmode_dinein",
+          "value": "Dine In"
+        },
+        {
+          "key": "manual_fire_label",
+          "value": "Check-in"
+        },
+        {
+          "key": "thanks_curbsidepickup_instructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        },
+        {
+          "key": "thanks_counterpickup_instructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        },
+        {
+          "key": "thanks_delivery_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_dispatch_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_drivethru_instructions",
+          "value": "Provide your name or order number to the attendant at drive-thru when you arrive."
+        },
+        {
+          "key": "thanks_dinein_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_pickupinstructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        }
+      ],
+      "metadata": [],
+      "supportedTimeModes": ["advance", "asap"],
+      "attributes": [],
+      "calendars": [
+        {
+          "type": "DINE_IN",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240809 00:00",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240810 00:00",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240811 00:00",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240812 00:00",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240813 00:00",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240814 00:00",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240815 00:00",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240816 00:00",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "label": "Curbside",
+          "type": "CURBSIDE",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240808 21:45",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240809 21:45",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240810 21:45",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240811 21:45",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240812 21:45",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240813 21:45",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240814 21:45",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240815 21:45",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "type": "DRIVE_THRU",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240809 00:00",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240810 00:00",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240811 00:00",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240812 00:00",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240813 00:00",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240814 00:00",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240815 00:00",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240816 00:00",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "label": "Delivery",
+          "type": "DISPATCH",
+          "ranges": []
+        },
+        {
+          "type": "DINE_IN",
+          "ranges": [
+            {
+              "start": "20240808 06:15",
+              "end": "20240808 21:45",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:15",
+              "end": "20240809 21:45",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:15",
+              "end": "20240810 21:45",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:15",
+              "end": "20240811 21:45",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:15",
+              "end": "20240812 21:45",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:15",
+              "end": "20240813 21:45",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:15",
+              "end": "20240814 21:45",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:15",
+              "end": "20240815 21:45",
+              "weekday": "Thu"
+            }
+          ]
+        }
+      ],
+      "isFavorite": false
+    },
+    {
+      "id": 133098,
+      "name": "Kapahulu",
+      "storeNumber": "5",
+      "phone": "(808) 733-3725",
+      "streetAddress": "601 Kapahulu Avenue",
+      "city": "Honolulu",
+      "state": "HI",
+      "postalCode": "96815",
+      "country": "US",
+      "latitude": 21.278355,
+      "longitude": -157.8136673,
+      "utcOffset": -10.0,
+      "distance": 3.49,
+      "images": [],
+      "advanceOnly": false,
+      "advanceOrderDays": 7,
+      "supportsManualFire": false,
+      "canDeliver": false,
+      "canPickup": true,
+      "supportsCurbside": true,
+      "supportsDispatch": true,
+      "supportsDineIn": false,
+      "slug": "kapahulu",
+      "isAvailable": true,
+      "isCurrentlyOpen": true,
+      "supportsDriveThru": true,
+      "acceptsOrdersBeforeOpening": true,
+      "customFields": [],
+      "labels": [
+        {
+          "key": "handoffmode_delivery",
+          "value": "Delivery"
+        },
+        {
+          "key": "handoffmode_dispatch",
+          "value": "Delivery"
+        },
+        {
+          "key": "handoffmode_pickup",
+          "value": "Pickup"
+        },
+        {
+          "key": "handoffmode_curbside",
+          "value": "Curbside"
+        },
+        {
+          "key": "handoffmode_drivethru",
+          "value": "Drive-thru"
+        },
+        {
+          "key": "handoffmode_dinein",
+          "value": "Dine In"
+        },
+        {
+          "key": "manual_fire_label",
+          "value": "Check-in"
+        },
+        {
+          "key": "thanks_curbsidepickup_instructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        },
+        {
+          "key": "thanks_counterpickup_instructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        },
+        {
+          "key": "thanks_delivery_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_dispatch_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_drivethru_instructions",
+          "value": "Provide your name or order number to the attendant at drive-thru when you arrive."
+        },
+        {
+          "key": "thanks_dinein_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_pickupinstructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        }
+      ],
+      "metadata": [],
+      "supportedTimeModes": ["advance", "asap"],
+      "attributes": [],
+      "calendars": [
+        {
+          "type": "DINE_IN",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240808 22:00",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240809 22:00",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240810 22:00",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240811 22:00",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240812 22:00",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240813 22:00",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240814 22:00",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240815 22:00",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "label": "Curbside",
+          "type": "CURBSIDE",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240808 21:45",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240809 21:45",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240810 21:45",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240811 21:45",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240812 21:45",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240813 21:45",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240814 21:45",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240815 21:45",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "type": "DRIVE_THRU",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240808 22:00",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240809 22:00",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240810 22:00",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240811 22:00",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240812 22:00",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240813 22:00",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240814 22:00",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240815 22:00",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "label": "Delivery",
+          "type": "DISPATCH",
+          "ranges": []
+        },
+        {
+          "type": "DINE_IN",
+          "ranges": [
+            {
+              "start": "20240808 06:15",
+              "end": "20240808 21:45",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:15",
+              "end": "20240809 21:45",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:15",
+              "end": "20240810 21:45",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:15",
+              "end": "20240811 21:45",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:15",
+              "end": "20240812 21:45",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:15",
+              "end": "20240813 21:45",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:15",
+              "end": "20240814 21:45",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:15",
+              "end": "20240815 21:45",
+              "weekday": "Thu"
+            }
+          ]
+        }
+      ],
+      "isFavorite": false
+    },
+    {
+      "id": 133096,
+      "name": "Kaimuki",
+      "storeNumber": "2",
+      "phone": "(808) 733-3722",
+      "streetAddress": "3345 Waialae Avenue",
+      "crossStreet": "Across from St. Patrick's Church",
+      "city": "Honolulu",
+      "state": "HI",
+      "postalCode": "96816",
+      "country": "US",
+      "latitude": 21.2852844,
+      "longitude": -157.8045202,
+      "utcOffset": -10.0,
+      "distance": 3.77,
+      "images": [],
+      "advanceOnly": false,
+      "advanceOrderDays": 7,
+      "supportsManualFire": false,
+      "canDeliver": false,
+      "canPickup": true,
+      "supportsCurbside": true,
+      "supportsDispatch": true,
+      "supportsDineIn": false,
+      "slug": "kaimuki",
+      "isAvailable": true,
+      "isCurrentlyOpen": true,
+      "supportsDriveThru": true,
+      "acceptsOrdersBeforeOpening": true,
+      "customFields": [],
+      "labels": [
+        {
+          "key": "handoffmode_delivery",
+          "value": "Delivery"
+        },
+        {
+          "key": "handoffmode_dispatch",
+          "value": "Delivery"
+        },
+        {
+          "key": "handoffmode_pickup",
+          "value": "Pickup"
+        },
+        {
+          "key": "handoffmode_curbside",
+          "value": "Curbside"
+        },
+        {
+          "key": "handoffmode_drivethru",
+          "value": "Drive-thru"
+        },
+        {
+          "key": "handoffmode_dinein",
+          "value": "Dine In"
+        },
+        {
+          "key": "manual_fire_label",
+          "value": "Check-in"
+        },
+        {
+          "key": "thanks_curbsidepickup_instructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        },
+        {
+          "key": "thanks_counterpickup_instructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        },
+        {
+          "key": "thanks_delivery_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_dispatch_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_drivethru_instructions",
+          "value": "Provide your name or order number to the attendant at drive-thru when you arrive."
+        },
+        {
+          "key": "thanks_dinein_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_pickupinstructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        }
+      ],
+      "metadata": [],
+      "supportedTimeModes": ["advance", "asap"],
+      "attributes": [],
+      "calendars": [
+        {
+          "type": "DINE_IN",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240808 22:00",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240809 22:00",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240810 22:00",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240811 22:00",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240812 22:00",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240813 22:00",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240814 22:00",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240815 22:00",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "label": "Curbside",
+          "type": "CURBSIDE",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240808 21:45",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240809 21:45",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240810 21:45",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240811 21:45",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240812 21:45",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240813 21:45",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240814 21:45",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240815 21:45",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "type": "DRIVE_THRU",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240808 22:00",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240809 22:00",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240810 22:00",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240811 22:00",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240812 22:00",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240813 22:00",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240814 22:00",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240815 22:00",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "label": "Delivery",
+          "type": "DISPATCH",
+          "ranges": []
+        },
+        {
+          "type": "DINE_IN",
+          "ranges": [
+            {
+              "start": "20240808 06:15",
+              "end": "20240808 21:45",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:15",
+              "end": "20240809 21:45",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:15",
+              "end": "20240810 21:45",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:15",
+              "end": "20240811 21:45",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:15",
+              "end": "20240812 21:45",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:15",
+              "end": "20240813 21:45",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:15",
+              "end": "20240814 21:45",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:15",
+              "end": "20240815 21:45",
+              "weekday": "Thu"
+            }
+          ]
+        }
+      ],
+      "isFavorite": false
+    },
+    {
+      "id": 133112,
+      "name": "Kahala",
+      "storeNumber": "23",
+      "phone": "(808) 733-3730",
+      "streetAddress": "4134 Waialae Avenue",
+      "city": "Honolulu",
+      "state": "HI",
+      "postalCode": "96816",
+      "country": "US",
+      "latitude": 21.2792957,
+      "longitude": -157.788039,
+      "utcOffset": -10.0,
+      "distance": 4.91,
+      "images": [],
+      "advanceOnly": false,
+      "advanceOrderDays": 7,
+      "supportsManualFire": false,
+      "canDeliver": false,
+      "canPickup": true,
+      "supportsCurbside": true,
+      "supportsDispatch": true,
+      "supportsDineIn": false,
+      "slug": "kahala",
+      "isAvailable": true,
+      "isCurrentlyOpen": true,
+      "supportsDriveThru": true,
+      "acceptsOrdersBeforeOpening": true,
+      "customFields": [],
+      "labels": [
+        {
+          "key": "handoffmode_delivery",
+          "value": "Delivery"
+        },
+        {
+          "key": "handoffmode_dispatch",
+          "value": "Delivery"
+        },
+        {
+          "key": "handoffmode_pickup",
+          "value": "Pickup"
+        },
+        {
+          "key": "handoffmode_curbside",
+          "value": "Curbside"
+        },
+        {
+          "key": "handoffmode_drivethru",
+          "value": "Drive-thru"
+        },
+        {
+          "key": "handoffmode_dinein",
+          "value": "Dine In"
+        },
+        {
+          "key": "manual_fire_label",
+          "value": "Check-in"
+        },
+        {
+          "key": "thanks_curbsidepickup_instructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        },
+        {
+          "key": "thanks_counterpickup_instructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        },
+        {
+          "key": "thanks_delivery_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_dispatch_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_drivethru_instructions",
+          "value": "Provide your name or order number to the attendant at drive-thru when you arrive."
+        },
+        {
+          "key": "thanks_dinein_instructions",
+          "value": "Thanks for your order!"
+        },
+        {
+          "key": "thanks_pickupinstructions",
+          "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+        }
+      ],
+      "metadata": [],
+      "supportedTimeModes": ["advance", "asap"],
+      "attributes": [],
+      "calendars": [
+        {
+          "type": "DINE_IN",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240809 00:00",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240810 00:00",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240811 00:00",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240812 00:00",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240813 00:00",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240814 00:00",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240815 00:00",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240816 00:00",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "label": "Curbside",
+          "type": "CURBSIDE",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240808 21:45",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240809 21:45",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240810 21:45",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240811 21:45",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240812 21:45",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240813 21:45",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240814 21:45",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240815 21:45",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "type": "DRIVE_THRU",
+          "ranges": [
+            {
+              "start": "20240808 06:00",
+              "end": "20240809 00:00",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:00",
+              "end": "20240810 00:00",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:00",
+              "end": "20240811 00:00",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:00",
+              "end": "20240812 00:00",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:00",
+              "end": "20240813 00:00",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:00",
+              "end": "20240814 00:00",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:00",
+              "end": "20240815 00:00",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:00",
+              "end": "20240816 00:00",
+              "weekday": "Thu"
+            }
+          ]
+        },
+        {
+          "label": "Delivery",
+          "type": "DISPATCH",
+          "ranges": []
+        },
+        {
+          "type": "DINE_IN",
+          "ranges": [
+            {
+              "start": "20240808 06:15",
+              "end": "20240808 21:45",
+              "weekday": "Thu"
+            },
+            {
+              "start": "20240809 06:15",
+              "end": "20240809 21:45",
+              "weekday": "Fri"
+            },
+            {
+              "start": "20240810 06:15",
+              "end": "20240810 21:45",
+              "weekday": "Sat"
+            },
+            {
+              "start": "20240811 06:15",
+              "end": "20240811 21:45",
+              "weekday": "Sun"
+            },
+            {
+              "start": "20240812 06:15",
+              "end": "20240812 21:45",
+              "weekday": "Mon"
+            },
+            {
+              "start": "20240813 06:15",
+              "end": "20240813 21:45",
+              "weekday": "Tue"
+            },
+            {
+              "start": "20240814 06:15",
+              "end": "20240814 21:45",
+              "weekday": "Wed"
+            },
+            {
+              "start": "20240815 06:15",
+              "end": "20240815 21:45",
+              "weekday": "Thu"
+            }
+          ]
+        }
+      ],
+      "isFavorite": false
+    }
+  ]
+}

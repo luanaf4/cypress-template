@@ -1,0 +1,50 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: UseNode@1
+  inputs:
+    version: '16.x'
+    checkLatest: true
+
+- script: |
+    npm install -g newman
+    npm install -g newman-reporter-htmlextra
+    npm install -g newman-reporter-junitfull
+  displayName: 'Install Newman and Reporters'
+  continueOnError: true
+
+- script: |
+    newman run $(System.DefaultWorkingDirectory)/cypress/e2e/tests_postman/ignite.postman_collection.json \
+      --reporters cli,htmlextra,junitfull \
+      --reporter-htmlextra-export $(System.DefaultWorkingDirectory)/newman/postman-report.html \
+      --reporter-htmlextra-darkTheme \
+      --reporter-htmlextra-testPaging \
+      --reporter-htmlextra-title "Postman-Report" \
+      --reporter-junitfull-export $(System.DefaultWorkingDirectory)/newman/junit-report.xml
+  displayName: 'Run Postman Collection with Newman'
+  continueOnError: true
+
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: |
+      cd newman
+      ls
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: '/newman/junit-report.xml'
+    testRunTitle: 'Postman API Tests'
+  displayName: 'Publish JUnit Test Results'
+
+- task: PublishHtmlReport@1
+  inputs:
+    reportDir: '$(System.DefaultWorkingDirectory)/newman/*.html'
+
+- task: UploadPostmanHtmlReport@1
+  inputs:
+    cwd: '$(System.DefaultWorkingDirectory)/newman'
