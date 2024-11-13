@@ -1,0 +1,48 @@
+# Node.js
+# Build a general Node.js project with npm.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+  branches:
+      include:
+        - feature/ignite-api-tests
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+
+- task: NodeTool@0
+  inputs:
+    versionSpec: '16.x'
+  displayName: 'Install Node.js'
+
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: |
+      npm install -g junit-report-merger
+      npm install cypress --save-dev
+  displayName: 'npm install'
+  
+  
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: |
+      npm run api
+  displayName: 'run api tests'
+  continueOnError: true
+
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: |
+      npm run merge:apireport
+  displayName: 'merge reports'
+
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: 'qa-api-test-report.xml'
+    searchFolder: '$(System.DefaultWorkingDirectory)'

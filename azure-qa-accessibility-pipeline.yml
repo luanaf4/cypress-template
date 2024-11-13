@@ -1,0 +1,32 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- manual
+
+pool:
+  vmImage: macos-latest
+
+steps:
+- task: AccessibilityChecker@1
+  inputs:
+    url: 'https://dev-zippys-web.azurewebsites.net/'
+    tagoptions: 'wcag2a'
+  continueOnError: true
+  displayName: 'Accessibility - Handoff'
+
+- task: AccessibilityChecker@1
+  inputs:
+    url: 'https://dev-zippys-web.azurewebsites.net/menu'
+    tagoptions: 'wcag2a'
+  continueOnError: true
+  displayName: 'Accessibility - Menu'
+
+- task: AccessibilityChecker@1
+  inputs:
+    url: 'https://dev-zippys-web.azurewebsites.net/checkout'
+    tagoptions: 'wcag2a'
+  continueOnError: true
+  displayName: 'Accessibility - Checkout'

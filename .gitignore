@@ -1,0 +1,26 @@
+# File types
+*.html
+!*_lighthouse.html
+*.xml
+.DS_Store
+*.jpg
+*.png
+
+# Folders
+log/
+logs/
+results/
+.vs/
+.idea/
+target/
+node_modules
+cypress/reports/assets/
+!cypress/reports/lighthouse/
+cypress/screenshots/
+!assets/*.png
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+!playwright/tests/VisualTests.spec.js-snapshots/*.png
+test-results/html-report/

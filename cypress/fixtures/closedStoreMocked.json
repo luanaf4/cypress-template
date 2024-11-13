@@ -1,0 +1,459 @@
+{
+    "bootstrapData": {
+        "channelSlug": "zippysrestaurants",
+        "channel": {
+            "id": 1076,
+            "guid": "f6306b87-5975-ec11-aaad-0e885b099c11",
+            "name": "Zippy's Restaurants",
+            "internalName": "zippysrestaurants",
+            "cdnUrl": "https://static.olocdn.net",
+            "analytics": [
+                {
+                    "type": "gtm",
+                    "identifier": "GTM-K7XTS9P",
+                    "isCrossChannel": false
+                }
+            ],
+            "iOSAppIdentifier": null,
+            "androidAppIdentifier": null,
+            "settings": {
+                "advanceOrderDays": 7,
+                "basketTransfer": false,
+                "groupOrdering": false,
+                "favorites": true,
+                "guestOrdering": true,
+                "splitPayGroupOrdering": false,
+                "curbside": true,
+                "upsell": true,
+                "fullSiteUrl": "order.zippys.com",
+                "manualFire": false,
+                "showUnavailableProducts": false,
+                "showSpecialInstructions": false,
+                "specialInstructionsMaxLength": 10,
+                "showProductRecipientNameLabel": false,
+                "cacheVersion": "1716409258",
+                "doCreditCardStreetAddressValidation": false,
+                "showOffersInbox": false,
+                "supportsOloLogin": false,
+                "separateBookingAndReceivingCustomer": false,
+                "mobileSecureUrl": "order.zippys.com",
+                "parentSiteUrl": null,
+                "hideMarketingOptIn": false,
+                "showGuestMarketingOptIn": false,
+                "channelCountrySettingsByCountryCode": {
+                    "us": {
+                        "name": "United States",
+                        "optIn": false,
+                        "showOptInDetails": false
+                    }
+                },
+                "allowUserFeedback": false,
+                "genericFeedbackUrl": null,
+                "orderSpecificFeedbackUrl": null,
+                "requirePhoneNumber": true,
+                "dineInRequirePhoneNumber": 0,
+                "dineInRequireEmail": false,
+                "facebookOrderAppId": null,
+                "facebookAppId": null,
+                "enableFacebookWebViews": false,
+                "showSocialIntegration": false,
+                "otherDeliveryInstructionsMaxLength": 50,
+                "defaultToGuestOrdering": true,
+                "requireDeliveryInstructions": false,
+                "isResponsive": true,
+                "responsivePreviewEnabled": true,
+                "enableGooglePlacesApi": false,
+                "showVendorPhoneNumber": true,
+                "defaultChoicesToMax": false,
+                "showParticipatingRestaurants": true,
+                "enableAudioEye": false,
+                "channelAllyableLicense": "",
+                "showMenuCategoryNames": true,
+                "showProductMenuPrices": true,
+                "showProductAvailability": false,
+                "showProductPriceTicker": true,
+                "showFullMenu": false,
+                "googleMapsApiKey": "AIzaSyDL_DVmqfMV2S-sSFfxdBlS4i2B7UTuiis",
+                "showGiftCardBalance": true,
+                "basketMaxQuantity": 8000,
+                "basketProductMaxQuantity": 99,
+                "showSmsOptIn": false,
+                "handoffModesHiddenFromSelection": [],
+                "allowGtmOnSecureRoutes": false,
+                "showPhoneNumberIfNotRequired": true,
+                "redirectDineInToClosedCheck": true,
+                "surveyUrl": null
+            },
+            "vendors": null,
+            "billingSchemes": null,
+            "loginProviders": [
+                {
+                    "id": 749,
+                    "name": "Zippy's Restaurants - Punchh",
+                    "displayText": "Login to Zipster Rewards",
+                    "slug": "punchh",
+                    "userEditAccountUrl": null,
+                    "isOloAuth": false,
+                    "enableOloAuthLinking": true
+                }
+            ],
+            "handoffModes": [
+                80,
+                85,
+                67,
+                84
+            ],
+            "defaultHandoffMode": "CounterPickup",
+            "isCustomFrontend": false,
+            "disclaimers": []
+        },
+        "crossChannelAnalytics": {
+            "type": "ua",
+            "identifier": "UA-52691800-6",
+            "isCrossChannel": true
+        },
+        "crossChannelAnalyticsGtm": {
+            "type": "gtm",
+            "identifier": "GTM-NZ2R8ZH",
+            "isCrossChannel": true
+        },
+        "googleApiKey": null,
+        "raygunApiKey": null,
+        "userId": null,
+        "basketGuid": null,
+        "allowSearchEngineIndexing": false,
+        "basketVendorSlug": null,
+        "isEmbeddedLevelUp": false,
+        "isFacebook": false,
+        "isEmbeddedMode": false,
+        "isRestrictedFlow": false,
+        "isSsoLogin": false,
+        "isOloAuthLogin": false,
+        "isLinkedOloAuthAndLoyalty": null,
+        "editAccountUrl": null,
+        "registerAccountUrl": null,
+        "loginProviderName": null,
+        "appVersion": null,
+        "error": null,
+        "guestUser": null,
+        "content": [
+            {
+                "key": "DELIVERY_PROVIDER_ATTRIBUTION",
+                "value": "Your driver is picking up your order. It will be delivered by %DeliveryServiceProviderName%.",
+                "channel": 1076
+            },
+            {
+                "key": "EMAIL_OPT_IN_DESCRIPTION",
+                "value": "Send me emails about future deals and features",
+                "channel": 1076
+            },
+            {
+                "key": "LOGIN_MESSAGE",
+                "value": "** You must login to earn Zipcoins. If you check out as a Guest, you do not qualify for Zipcoins. **",
+                "channel": 1076
+            },
+            {
+                "key": "MENU_TITLE",
+                "value": "%VendorName% - Order Online",
+                "channel": 1076
+            },
+            {
+                "key": "CONTACT_US_HTML",
+                "value": "<h2>Contact Us</h2>\r\n\r\n<h3>Online Ordering Customer Support</h3>\r\n<p>If you do not see your favorite store today, please check back soon!</p>\r\n<p>Click on the &#8220;View Menus&#8221; tab  to search for locations currently online.</p>\r\n\r\n<h3>Locations</h3>\r\n<p>To find the phone number, hours, or address for a specific location, select &#8220;View Menus&#8221; or view &#8220;Participating Locations&#8221;. </p>\r\n\r\n<h3>Online Order Support</h3>\r\n<p>If you have any questions on your online order, please contact the specific location for assistance.</p>\r\n\r\n",
+                "channel": 1076
+            },
+            {
+                "key": "MOBILE_HERO_IMAGE_ALT_TEXT",
+                "value": "Online ordering",
+                "channel": 1076
+            },
+            {
+                "key": "NO_VENDORS_NEAR_USER",
+                "value": "We were unable to find any participating locations in your area for online ordering. Please enter another address and include city and state for the most accurate results.",
+                "channel": 1076
+            },
+            {
+                "key": "ONLINE_TRACKING_PAGE_BRAND_HTML",
+                "value": "",
+                "channel": 1076
+            },
+            {
+                "key": "ONLINE_TRACKING_PAGE_LINK_NAME",
+                "value": "Online-Tracking Opt Out Guide",
+                "channel": 1076
+            },
+            {
+                "key": "RESP_BASKET_CHECKOUT_BUTTON",
+                "value": "Checkout",
+                "channel": 1076
+            },
+            {
+                "key": "RESP_BASKET_EMPTY_CART_BUTTON",
+                "value": "Start Your Order",
+                "channel": 1076
+            },
+            {
+                "key": "RESP_BASKET_EMPTY_CART_MESSAGE",
+                "value": "Your cart is empty",
+                "channel": 1076
+            },
+            {
+                "key": "RESP_BASKET_HEADER",
+                "value": "Your Order",
+                "channel": 1076
+            },
+            {
+                "key": "RESP_CHECKOUT_COUPON_CODE_FIELD_LABEL",
+                "value": "Coupon Code",
+                "channel": 1076
+            },
+            {
+                "key": "RESP_CHECKOUT_DELIVERY_FEE_HELPER_MESSAGE",
+                "value": "Delivery charges reflect current availability and may change.",
+                "channel": 1076
+            },
+            {
+                "key": "RESP_CHECKOUT_MESSAGE",
+                "value": "** You must login to earn Zipcoins. If you check out as a Guest, you do not qualify for Zipcoins. **\r\n\r\nNOTE: ALL Online Orders require payment at time of order. To pay in-store, please call or visit the Store directly. <br/> <br/>Submitting this order confirms that you accept all associated terms and conditions. Review address & order details for accuracy. Your order will be sent to %VendorName%.",
+                "channel": 1076
+            },
+            {
+                "key": "RESP_CHECKOUT_ORDER_SUMMARY_LABEL",
+                "value": "Order Summary",
+                "channel": 1076
+            },
+            {
+                "key": "RESP_CHECKOUT_PAGE_TITLE",
+                "value": "Checkout",
+                "channel": 1076
+            },
+            {
+                "key": "RESP_CHECKOUT_PAYMENT_SUB_HEADER",
+                "value": "Payment",
+                "channel": 1076
+            },
+            {
+                "key": "RESP_CHECKOUT_PLACE_ORDER_BUTTON",
+                "value": "Place Order",
+                "channel": 1076
+            },
+            {
+                "key": "RESP_CUSTOM_FIELDS_LABEL",
+                "value": "Additional Details",
+                "channel": 1076
+            },
+            {
+                "key": "RESP_POSTCHECKOUT_CREATEACCOUNT_PROMPT",
+                "value": "Make an account so you can view your order history, quickly reorder favorites, save address and payment info, and more!",
+                "channel": 1076
+            },
+            {
+                "key": "RESP_POSTCHECKOUT_FEEDBACK_BUTTON",
+                "value": "Give Feedback",
+                "channel": 1076
+            },
+            {
+                "key": "RESP_POSTCHECKOUT_FEEDBACK_PROMPT",
+                "value": "How was your ordering experience? Let us know so we can keep doing what works — and improve what doesn't!",
+                "channel": 1076
+            },
+            {
+                "key": "RESP_PRODUCT_FEATURED_LABEL",
+                "value": "Featured",
+                "channel": 1076
+            },
+            {
+                "key": "RESP_SPLASH_BUTTON_LABEL_SEARCH",
+                "value": "Start Order",
+                "channel": 1076
+            },
+            {
+                "key": "RESP_SPLASH_DELIVERY_INPUT_TEXT_DELIVERY",
+                "value": "Delivery Address",
+                "channel": 1076
+            },
+            {
+                "key": "RESP_SPLASH_INPUT_TEXT_NON_DELIVERY",
+                "value": "Address, City and State, or Postal Code",
+                "channel": 1076
+            },
+            {
+                "key": "RESP_SPLASH_MAIN_HEADER",
+                "value": "Welcome to Zippy's",
+                "channel": 1076
+            },
+            {
+                "key": "RESP_UPSELL_HEADER",
+                "value": "May We Suggest",
+                "channel": 1076
+            },
+            {
+                "key": "SPECIAL_INSTRUCTIONS_LABEL",
+                "value": "Enter any special instructions here: **No price altering substitutions/additions**",
+                "channel": 1076
+            },
+            {
+                "key": "THANKS_SOCIALTEXT",
+                "value": "I just ordered great food at %Vendor%! Time to go right up and #SkipTheLine!",
+                "channel": 1076
+            },
+            {
+                "key": "CUSTOMER_PHONE_NUMBER_EXPLANATION",
+                "value": "Contact number is required only in case of issues regarding your order (e.g. items out of stock).",
+                "channel": 1076
+            },
+            {
+                "key": "EMAIL_OPT_IN_GUEST_DESCRIPTION",
+                "value": "Send me emails about future deals and features",
+                "channel": 1076
+            }
+        ],
+        "handoffModes": [
+            {
+                "id": 80,
+                "label": "Pickup",
+                "value": "CounterPickup",
+                "type": "CounterPickup",
+                "timeWantedModes": [
+                    2,
+                    1
+                ],
+                "channel": 1076,
+                "deliveryMode": "Pickup",
+                "isPrivate": false
+            },
+            {
+                "id": 85,
+                "label": "Drive-thru",
+                "value": "DriveThru",
+                "type": "DriveThru",
+                "timeWantedModes": [
+                    2,
+                    1
+                ],
+                "channel": 1076,
+                "deliveryMode": "DriveThru",
+                "isPrivate": false
+            },
+            {
+                "id": 67,
+                "label": "Mockedup",
+                "value": "Mockedup",
+                "type": "Mockedup",
+                "timeWantedModes": [
+                    2,
+                    1
+                ],
+                "channel": 1076,
+                "deliveryMode": "Mockedup",
+                "isPrivate": false
+            },
+            {
+                "id": 73,
+                "label": "Dine In",
+                "value": "DineIn",
+                "type": "DineIn",
+                "timeWantedModes": [
+                    2,
+                    1
+                ],
+                "channel": 1076,
+                "deliveryMode": "DineIn",
+                "isPrivate": true
+            },
+            {
+                "id": 84,
+                "label": "Delivery",
+                "value": "Dispatch",
+                "type": "Dispatch",
+                "timeWantedModes": [
+                    2,
+                    1
+                ],
+                "channel": 1076,
+                "deliveryMode": "Dispatch",
+                "isPrivate": false
+            }
+        ],
+        "timeWantedModes": [
+            {
+                "id": 2,
+                "label": "ASAP",
+                "value": 2,
+                "handoffModes": [
+                    80,
+                    85,
+                    67,
+                    73,
+                    84
+                ],
+                "isPrivate": false
+            },
+            {
+                "id": 1,
+                "label": "Later",
+                "value": 1,
+                "handoffModes": [
+                    80,
+                    85,
+                    67,
+                    73,
+                    84
+                ],
+                "isPrivate": false
+            }
+        ],
+        "featureFlags": [
+            {
+                "name": "supportAdditionalHandoffModes",
+                "enabled": true
+            },
+            {
+                "name": "bundleCustomizationModal",
+                "enabled": true
+            },
+            {
+                "name": "borderlessABTestEnabled",
+                "enabled": false
+            },
+            {
+                "name": "oloAuthUpdateOptInOnBasketSubmit",
+                "enabled": true
+            },
+            {
+                "name": "unlinked-user-info-olo-84530",
+                "enabled": true
+            }
+        ],
+        "verifyAddress": null,
+        "customLinks": [],
+        "mixpanelAnalyticsIds": {
+            "default": "da883952e44c78a604850c66caa27641",
+            "olo-auth": "a1a17baf4549671763ad97e394b32412"
+        },
+        "mixpanelUniqueId": "",
+        "cmsContent": {
+            "heroImage": {
+                "altText": "Zippy's",
+                "imageUri": "https://olo-images-live.imgix.net/08/086912a587004cb5b49a3f31692d400c.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1500&h=1200&fit=crop&s=c7731a42d60c3adde9d8c82d2493ee13"
+            },
+            "menuBanner": {
+                "altTextMobile": null,
+                "altTextTablet": null,
+                "imageUriMobile": null,
+                "imageUriTablet": null
+            }
+        },
+        "translationTest": "Mixpanel translation test",
+        "encodedTranslation": "TWl4cGFuZWwgdHJhbnNsYXRpb24gdGVzdA==",
+        "hasOloAuthProvider": false,
+        "oloAuthApiUrl": "https://app.oloauth.com",
+        "clientTrackerGuid": "46196a5c-4477-4105-955a-78243bcc2cff",
+        "redirectToCustomSite": false,
+        "customSiteUrl": null,
+        "enableOloAuthLinking": false,
+        "showPrivacyLink": false,
+        "showUserAgreementLink": false,
+        "checkForHouseAccountOnPasswordReset": false
+    }
+}

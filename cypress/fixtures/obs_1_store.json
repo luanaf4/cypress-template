@@ -1,0 +1,309 @@
+{
+    "restaurants": [
+        {
+            "acceptsordersbeforeopening": true,
+            "acceptsordersuntilclosing": true,
+            "advanceonly": false,
+            "advanceorderdays": 7,
+            "allowhandoffchoiceatmanualfire": false,
+            "allowstaxexemption": false,
+            "attributes": [],
+            "availabilitymessage": null,
+            "brand": "outbacksteakhouse",
+            "calendars": [
+                {
+                    "label": null,
+                    "ranges": [
+                        {
+                            "end": "20240621 21:30",
+                            "start": "20240621 17:45",
+                            "weekday": "Fri"
+                        },
+                        {
+                            "end": "20240623 00:00",
+                            "start": "20240622 00:00",
+                            "weekday": "Sat"
+                        },
+                        {
+                            "end": "20240624 00:00",
+                            "start": "20240623 00:00",
+                            "weekday": "Sun"
+                        },
+                        {
+                            "end": "20240625 00:00",
+                            "start": "20240624 00:00",
+                            "weekday": "Mon"
+                        },
+                        {
+                            "end": "20240626 00:00",
+                            "start": "20240625 00:00",
+                            "weekday": "Tue"
+                        },
+                        {
+                            "end": "20240627 00:00",
+                            "start": "20240626 00:00",
+                            "weekday": "Wed"
+                        },
+                        {
+                            "end": "20240628 00:00",
+                            "start": "20240627 00:00",
+                            "weekday": "Thu"
+                        },
+                        {
+                            "end": "20240628 21:30",
+                            "start": "20240628 17:45",
+                            "weekday": "Fri"
+                        }
+                    ],
+                    "type": "business"
+                },
+                {
+                    "label": "Delivery",
+                    "ranges": [
+                        {
+                            "end": "20240622 00:00",
+                            "start": "20240621 00:00",
+                            "weekday": "Fri"
+                        },
+                        {
+                            "end": "20240623 00:00",
+                            "start": "20240622 00:00",
+                            "weekday": "Sat"
+                        },
+                        {
+                            "end": "20240624 00:00",
+                            "start": "20240623 00:00",
+                            "weekday": "Sun"
+                        },
+                        {
+                            "end": "20240625 00:00",
+                            "start": "20240624 00:00",
+                            "weekday": "Mon"
+                        },
+                        {
+                            "end": "20240626 00:00",
+                            "start": "20240625 00:00",
+                            "weekday": "Tue"
+                        },
+                        {
+                            "end": "20240627 00:00",
+                            "start": "20240626 00:00",
+                            "weekday": "Wed"
+                        },
+                        {
+                            "end": "20240628 00:00",
+                            "start": "20240627 00:00",
+                            "weekday": "Thu"
+                        },
+                        {
+                            "end": "20240629 00:00",
+                            "start": "20240628 00:00",
+                            "weekday": "Fri"
+                        }
+                    ],
+                    "type": "delivery"
+                },
+                {
+                    "label": "Curbside",
+                    "ranges": [
+                        {
+                            "end": "20240621 19:30",
+                            "start": "20240621 12:00",
+                            "weekday": "Fri"
+                        },
+                        {
+                            "end": "20240623 00:00",
+                            "start": "20240622 00:00",
+                            "weekday": "Sat"
+                        },
+                        {
+                            "end": "20240624 00:00",
+                            "start": "20240623 00:00",
+                            "weekday": "Sun"
+                        },
+                        {
+                            "end": "20240625 00:00",
+                            "start": "20240624 00:00",
+                            "weekday": "Mon"
+                        },
+                        {
+                            "end": "20240626 00:00",
+                            "start": "20240625 00:00",
+                            "weekday": "Tue"
+                        },
+                        {
+                            "end": "20240627 00:00",
+                            "start": "20240626 00:00",
+                            "weekday": "Wed"
+                        },
+                        {
+                            "end": "20240628 00:00",
+                            "start": "20240627 00:00",
+                            "weekday": "Thu"
+                        },
+                        {
+                            "end": "20240628 19:30",
+                            "start": "20240628 12:00",
+                            "weekday": "Fri"
+                        }
+                    ],
+                    "type": "curbsidepickup"
+                }
+            ],
+            "candeliver": true,
+            "canpickup": true,
+            "city": "New York",
+            "contextualpricing": null,
+            "country": "US",
+            "crossstreet": "1 World Trade Center",
+            "customerfacingmessage": "Dine Rewards Member: To get visit credit or redeem rewards\r\nStep 1. Login into an account\r\nStep 2. Link your Dine Reward phone number",
+            "customfields": [
+                {
+                    "id": 139545,
+                    "label": "Make",
+                    "qualificationcriteria": "CurbsidePickupOrdersOnly",
+                    "required": true,
+                    "validationregex": ""
+                },
+                {
+                    "id": 139546,
+                    "label": "Model",
+                    "qualificationcriteria": "CurbsidePickupOrdersOnly",
+                    "required": true,
+                    "validationregex": ""
+                },
+                {
+                    "id": 139547,
+                    "label": "Color",
+                    "qualificationcriteria": "CurbsidePickupOrdersOnly",
+                    "required": true,
+                    "validationregex": ""
+                }
+            ],
+            "deliveryarea": "Nearby",
+            "deliverydelayalertenabled": false,
+            "deliverydelayalertmessage": null,
+            "deliveryfee": 7.99,
+            "deliveryfeetiers": [
+                {
+                    "amount": 7.99,
+                    "feetype": "FixedFee",
+                    "subtotalminimum": 0.00
+                }
+            ],
+            "distance": 0.15,
+            "extref": "1_9939",
+            "hasolopass": false,
+            "id": 107383,
+            "isavailable": true,
+            "iscurrentlyopen": false,
+            "labels": [
+                {
+                    "key": "handoffmode_delivery",
+                    "value": "Delivery"
+                },
+                {
+                    "key": "handoffmode_dispatch",
+                    "value": "Delivery"
+                },
+                {
+                    "key": "handoffmode_pickup",
+                    "value": "Pickup"
+                },
+                {
+                    "key": "handoffmode_curbside",
+                    "value": "Curbside"
+                },
+                {
+                    "key": "handoffmode_drivethru",
+                    "value": "Drive-thru"
+                },
+                {
+                    "key": "handoffmode_dinein",
+                    "value": "Dine In"
+                },
+                {
+                    "key": "manual_fire_label",
+                    "value": "Check-in"
+                },
+                {
+                    "key": "thanks_curbsidepickup_instructions",
+                    "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+                },
+                {
+                    "key": "thanks_counterpickup_instructions",
+                    "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+                },
+                {
+                    "key": "thanks_delivery_instructions",
+                    "value": "Thanks for your order!"
+                },
+                {
+                    "key": "thanks_dispatch_instructions",
+                    "value": "Thanks for your order!"
+                },
+                {
+                    "key": "thanks_drivethru_instructions",
+                    "value": "Provide your name or order number to the attendant at drive-thru when you arrive."
+                },
+                {
+                    "key": "thanks_dinein_instructions",
+                    "value": "Thanks for your order!"
+                },
+                {
+                    "key": "thanks_pickupinstructions",
+                    "value": "Go Straight to Order Pickup At the Counter & Tell a Crew Member You Ordered Online."
+                }
+            ],
+            "latitude": 40.7127431,
+            "longitude": -74.0133795,
+            "maximumpayinstoreorder": 0.0000,
+            "metadata": null,
+            "minimumdeliveryorder": 0.0000,
+            "minimumpickuporder": 0.0000,
+            "mobileurl": "https:\/\/outbacksteakhouse.olosandbox.com\/menu\/outback-steakhouse-sandbox-demo-vendor\/",
+            "name": "TEST Outback Steakhouse Sandbox LAB 9939",
+            "productrecipientnamelabel": "Name:",
+            "requiresphonenumber": true,
+            "showcalories": true,
+            "slug": "outback-steakhouse-sandbox-demo-vendor",
+            "specialinstructionsmaxlength": 40,
+            "state": "NY",
+            "storename": "Outback Steakhouse",
+            "streetaddress": "1 World Trade Center",
+            "streetaddress2": "",
+            "suggestedtippercentage": 20,
+            "supportedarrivalmessagehandoffmodes": [],
+            "supportedcardtypes": "American Express\/Discover\/MasterCard\/Visa",
+            "supportedcountries": [
+                "US"
+            ],
+            "supportedtimemodes": [
+                "advance",
+                "asap"
+            ],
+            "supportsbaskettransfers": true,
+            "supportscoupons": true,
+            "supportscurbside": true,
+            "supportsdinein": false,
+            "supportsdispatch": false,
+            "supportsdrivethru": false,
+            "supportsfeedback": false,
+            "supportsgrouporders": false,
+            "supportsguestordering": true,
+            "supportsloyalty": true,
+            "supportsmanualfire": false,
+            "supportsnationalmenu": false,
+            "supportsonlineordering": true,
+            "supportsproductrecipientnames": false,
+            "supportsspecialinstructions": true,
+            "supportssplitpayments": true,
+            "supportstip": true,
+            "telephone": "(505) 555-5555",
+            "url": "https:\/\/outbacksteakhouse.olosandbox.com\/menu\/outback-steakhouse-sandbox-demo-vendor\/",
+            "utcoffset": -4,
+            "zip": "10007"
+        }
+
+    ]
+}
